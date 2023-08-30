@@ -1,0 +1,43 @@
+{"intents":  [
+  {"tag":  "saudacoes",
+  "patterns": ["hello", "hi", "bom dia", "olá", "ola", "oi", "tudo bem?", "tudo certo?", "blz ?"],
+  "responses":  ["Hello!", "Oii", "Olá", "O que eu posso fazer por você ?"]
+  },
+
+  {"tag":  "despedidas",
+  "patterns": ["tchau", "adeus", "até mais", "até a próxima", "bye", "estou indo", "sair"],
+  "responses":  ["Triste em ver você ir :( ", "Falo com você mais tarde", "Até a próxima !", "Volte sempre."]
+  },
+
+  {"tag":  "idade",
+  "patterns": ["quantos anos?", "quantos anos a GG tem?", "qual a sua idade?", "quantos anos você tem?", "qual sua idade?"],
+  "responses":  ["Eu sou a GG Assistant e tenho 24 anos."]
+  },
+
+  {"tag":  "nome",
+  "patterns": ["qual o seu nome", "como devo te chamar?", "qual é o seu nome?", "como você se chama?", "quem é você?", "pode me falar seu nome?", "tudo bem?", "tudo certo?", "blz ?"],
+  "responses":  ["Pode me chamar de GG!", "Eu sou a(o) GG", "Meu nome é GG", "Eu sou a GG Assitente Virtual da Gerdau !"]
+  },
+
+  {"tag":  "compras",
+  "patterns": ["Gostaria de fazer uma comrpa", "quais são os produtos?", "quais os produtos disponíveis", "O que você recomenda?", "o que tem a venda?","que tipo de aço a Gerdau tem?"],
+  "responses":  ["Você pode entrar em contato com o time comercial na aba correspondente.", "Temos aços especiais, vergalhoões, pregos, tarugos, telas, entre outros", "depenmde para qual utilidade você gostaria. Fale com um dos nossos vendedores no número xxxx-xxxx"]
+  },
+
+  {"tag":  "sobre",
+  "patterns": ["Me fale sobre a Gerdau", "sobre a Gerdau", "o que a Gerdau faz?", "Quem é a Gerdau?", "me conte a história da Gerdau"],
+  "responses":  ["Há mais de 120 anos iniciamos nossa história na cidade de Porto Alegre, no Rio Grande do Sul, como uma fábrica de pregos. De lá para cá, nos tornamos a maior empresa brasileira produtora de aço, com presença em diversos países das Américas e um forte compromisso com o futuro do nosso país e o desenvolvimento da indústria.", "Hoje, somos a maior multinacional brasileira produtora de aço. Nossos produtos vão para diversos setores, como construção, indústria automotiva, maquinários, naval, energia… Para onde você olhar, tem Gerdau. E queremos muito mais."]
+  },
+
+  {"tag":  "sustentabilidade",
+  "patterns": ["me fale sobre sustentabilidade", "o que a Gerdau tem a ver com sustentabilidade?", "qual o papel da Gerdau na Sustentabilidade?", "O que você recomenda?", "o que tem a venda?","que tipo de aço a Gerdau tem?"],
+  "responses":  ["Somos a maior recicladora de sucata ferrosa da América Latina. Anualmente, nós transformamos mais de 11 milhões de ton. de sucata de metal em novos produtos em aço.",
+    "Retiramos os materiais obsoletos das cidades e reduzimos o consumo de energia e de emissões de CO2.\nA água utilizada nas usinas é 98% reaproveitada durante toda a cadeia de produção. Temos mais de 91 mil hectares de área florestal destinada à conservação da biodiversidade em MG.\nPara saber mais leia sobre nossa agenda ESG(Environmental, Social and Governance) "]
+  },
+
+  {"tag":  "arquivos",
+  "patterns":  ["Acesso a arquivos", "acessar arquivos", "visualizar arquivo", "abrir arquivos"],
+  "responses":  ["Claro, abrindo arquivos....", "Só um momento, vou abrir para você ....."]}
+]}
+
+
